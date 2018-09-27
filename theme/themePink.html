@@ -1,0 +1,262 @@
+
+<style type="text/css">
+    body{
+        background-image:url(image/pink/bgPink.jpg);
+    }
+
+    .page.two,.page.three,.page.four,.settingIn{
+      background:url(image/pink/pageBg.png)repeat;
+    }
+    .one::after {
+      height:14px;
+        background:url(image/pink/pageBefore.png) repeat-x;
+        box-shadow: 0 -2px 2px 0 rgba(0, 0, 0, 0.3);
+    }
+    .five::before{
+      height:14px;
+        background:url(image/pink/pageAfter.png) repeat-x;
+        box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.4);
+    }
+
+    .toggleLong  {
+      height:32px;
+      background-image: url(image/pink/btn1.png) ;
+      background-size:100%;
+    }
+    .toggleLong::after{
+        width: 48px;
+        top:3px;
+        left:1px;
+         background-image:url(image/pink/btn2.png) ;
+         background-size:100%;
+    }
+    .toggleShort{
+    width:63px;
+    height:32px;
+    background: url(image/pink/toggleShort.png) no-repeat left top;
+    background-size:100%;
+  }
+
+  .toggleShort::after{
+    content:'';
+    width: 30px;
+    height: 30px;
+    top:3px;
+    left:1px;
+    background: url(image/pink/toggleAfter.png) no-repeat left top;
+    background-size:100%;
+  }
+
+  .cur.toggleShort::after{
+    left:35px;
+    background: url(image/pink/toggleAfter.png) no-repeat left top;
+    background-size:100%;
+  }
+    .clickBtn::after{
+      left: 51px;
+    }
+    .uiTit, .webTit{
+      height:32px;
+      line-height:32px;
+      color: rgb(52, 45, 48);
+    }
+    .workTit, .aboutTit,.contactTit{
+      width:164px;
+      height:91px;
+      background:url(image/pink/work.png)no-repeat;
+      background-size:100%;
+    }
+
+    .aboutTit{
+      background-image:url(image/pink/about.png);
+    }
+    .contactTit{
+      background-image:url(image/pink/contact.png);
+    }
+    /*.toggleShort{
+        background-image: url(image/zero/toggleShort.png);
+    }
+
+    .toggleShort::after{
+        background-image: url(image/zero/toggleAfterOff.png);
+    }
+
+    .cur.toggleShort::after{
+        background-image: url(image/zero/toggleAfterOn.png);
+    }*/
+    .cdCenIn{
+        background-image:url(image/pink/cdCenIn.png);
+    }
+    .bigTit{
+
+
+
+    }
+
+    .smallTit {
+
+
+
+    }
+    .btnToPageTwo,.btnToPageTwo::after{
+      border-radius:255px 15px 225px 15px/15px 225px 15px 255px;
+
+
+    }
+
+
+
+    .previewList li:hover a, .previewList li.cur a{
+            color: #0FF;
+    }
+    .nav-in ul span{
+        background-color:#00CCFF;
+    }
+
+
+
+    .aboutLeft ul{
+        background: ;
+        background: ;
+        background: ;
+        background: ;
+    }
+    .uiWork li, .webWork li {
+
+
+    }
+    .current .uiWork li,.current .webWork li {
+
+
+    }
+
+
+
+
+     .qr img{
+        background: #ccc;
+         -webkit-transform: scale(1.4);
+             -moz-transform: scale(1.4);
+              -ms-transform: scale(1.4);
+               -o-transform: scale(1.4);
+                  transform: scale(1.4);
+        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.7),0 1px 0 rgba(255, 255, 255, 0.8) inset;
+
+    }
+    .current .qr img{
+      -webkit-transform: scale(1);
+         -moz-transform: scale(1);
+          -ms-transform: scale(1);
+           -o-transform: scale(1);
+              transform: scale(1);
+
+    }
+    .contectCon li{
+        opacity:0;
+        -moz-transform:scale(1.4) translate(0,-10px);
+          -ms-transform:scale(1.4) translate(0,-10px);
+          -o-transform:scale(1.4) translate(0,-10px);
+          -webkit-transform:scale(1.4) translate(0,-10px);
+          transform:scale(1.4) translate(0,-10px);
+
+    }
+    .current .contectCon li{
+      opacity:1;
+      -moz-transform:scale(1) translate(0,0);
+          -ms-transform:scale(1) translate(0,0);
+          -o-transform:scale(1) translate(0,0);
+          -webkit-transform:scale(1) translate(0,0);
+          transform:scale(1) translate(0,0);
+
+    }
+
+@media screen and (max-width:640px) {
+        .workTit, .aboutTit,.contactTit{
+      width:82px;
+      height:46px;
+    }
+        .designTit {
+            background: url(image/pink/pageBg.png)repeat;
+        }
+    }
+
+
+
+
+
+/*.btnSettingMobile{
+  display:none;
+}*/
+
+.btnToPageTwo{
+  display:none;
+}
+
+
+.bigTit,.smallTit,.mobileTit{
+  color:#430218;
+}
+.mobileTit{
+  color:#FFF;
+}
+.qr img{
+    background-color: #FFF;
+}
+.nav-in ul span{
+	background-color: #FFA0BB;
+}
+.weChat, .qq, .phone{
+  background-image: url(image/pink/pageBg.png);
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.4),0 1px 0 0 #9e878d inset;
+}
+
+.uiTit, .webTit {
+        color: rgba(32, 22, 22, 0.9);
+    }
+
+/*焦点字体颜色*/
+    .current .clickTit.uiTit,.current .clickTit.webTit,.bds_count {
+        color: #F9C!important;
+        text-shadow: 0 0px 8px #F9C !important;
+    }
+
+.btnBg,.previewList,.settingBoxBig.music::before{
+      background: #504549;
+      box-shadow: 0 1px 0 0 #9e878d, 0 1px 1px 0 #302a2d inset;
+}
+.btn,.previewList li{
+    text-shadow: 0 1px 0 #9e878d;
+    border-color:#423B3E;
+    box-shadow: 0 1px 0 0 #302a2d inset;
+}
+.previewList li{
+    background: #41383b;
+}
+.previewList li a,.btn{
+
+    color:rgba(255,255,255,.8);
+        box-shadow: 0 0px 0 1px #9e878d inset;
+        border-color:#302a2d;
+        text-shadow:0 1px 0 #9e878d;
+        background: -webkit-linear-gradient(top, #a9969a 0%,#7a666c 100%);
+        background: -o-linear-gradient(top, #a9969a 0%,#7a666c 100%);
+        background: -ms-linear-gradient(top, #a9969a 0%,#7a666c 100%);
+        background: linear-gradient( #a9969a, #7a666c);
+    }
+    .previewList li:hover, .previewList li.cur{
+        box-shadow: 0 1px 0px 0px #454545;
+    }
+
+.btn:hover,.previewList li:hover a, .previewList li.cur a{
+    color:#F9C;
+    text-shadow: 0 0px 8px #F9C;
+    background: -webkit-linear-gradient(top, #7a666c 0%,#a9969a 100%);
+    background: -o-linear-gradient(top, #7a666c 0%,#a9969a 100%);
+    background: -ms-linear-gradient(top, #7a666c 0%,#a9969a 100%);
+    background: linear-gradient( #7a666c, #a9969a);
+  }
+.clickTit.uiTit, .clickTit.webTit {
+  text-shadow: 0 0 10px rgba(255, 102, 153, 0.7), 0 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+</style>

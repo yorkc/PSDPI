@@ -1,0 +1,11 @@
+*{margin:0; padding:0; list-style:none;}
+		a{ text-decoration:none; color:#FFF; font-size:12px;}
+		body{ background:url(../image/bg1.jpg) no-repeat top center fixed;background-size: cover;overflow: hidden; /* 小技巧 给body加overflow: hidden;可以取消页面的滚动条 */min-width:320px;}
+		
+	
+
+		img {
+			border-style:none;
+			max-width:100%;
+			height:auto;
+		}

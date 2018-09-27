@@ -1,0 +1,86 @@
+		/*resert 与布局*/
+		*{margin:0; padding:0;
+		-webkit-user-select: none;
+		outline: 0;
+		-webkit-tap-highlight-color: transparent;
+		}
+		html,body{
+			height:100%;
+			font-size:62.5%;
+			-webkit-font-smoothing:antialiased;
+			font-weight:400;
+		}
+		li{
+			list-style:none;
+		}
+		a{
+			text-decoration:none;
+		 	color:#FFF;
+		 	font-size:1.6rem;
+		}
+
+		body{
+			 background: url(../image/bg1.jpg) no-repeat top center fixed;
+			 background-size:cover;
+			 overflow: hidden; /* 小技巧 给body加overflow: hidden;可以取消页面的滚动条 */
+			 -webkit-text-size-adjust:100%;
+			 min-width:320px;
+			 position:relative;
+	        perspective: 1500px;
+	        font-family: "Source Sans Pro", "Helvetica Neue", "Arial", "PingFang SC", "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "Microsoft JhengHei", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "WenQuanYi Micro Hei", "SimSun", "sans-serif";
+	        -webkit-transform: scale(5);
+	           -moz-transform: scale(5);
+	            -ms-transform: scale(5);
+	             -o-transform: scale(5);
+	                transform: scale(5);
+	                opacity:0;
+	                -webkit-transition: all .5s ease-out ;
+	                   -moz-transition: all .5s ease-out ;
+	                    -ms-transition: all .5s ease-out ;
+	                     -o-transition: all .5s ease-out ;
+	                        transition: all .5s ease-out ;
+		}
+		body.ready{
+			-webkit-transform: scale(1);
+	           -moz-transform: scale(1);
+	            -ms-transform: scale(1);
+	             -o-transform: scale(1);
+	                transform: scale(1);
+	                opacity:1;
+		}
+
+
+		img {
+
+			border-style:none;/*
+			max-width:100%;*/
+			height:auto;
+			vertical-align: top;
+		}
+
+		.page{
+		 	width: 100%;
+		 	height: 100%;
+		 	position: relative;
+		 	box-sizing:border-box;/* 如果不加它第2个bigbox就跑到第1个上了，所以page加相对定位 */} /* page是box的儿子所以给了100%就跟父盒子一样宽高了 */
+		/* 通过css3来设置上下滑动开始 */
+
+
+
+
+	/*布局结束*/
+
+
+
+
+
+
+	/*普通呼吸轮播图样式
+	.con{width:100%;height:auto; padding-top:100px; margin:0 auto ;}
+	.main{width:980px; height:693px; position:relative; margin:0 auto; overflow:hidden}
+	.main li{position:absolute; display:none;}
+	.main li img{width:980px; height:693px;}
+	.main-s{width:980px; height:87px; padding:4px 0 0 4px; border:2px solid #CCC; box-sizing:border-box ; margin:5px auto 0;}
+	.main-s li img{width:104px;}
+	.main-s li{ float:left; margin:0 4px 4px 0;}*/
+

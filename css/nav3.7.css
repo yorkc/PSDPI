@@ -1,0 +1,148 @@
+.nav {
+	width: 100%;
+	height: auto;
+	background: #000;
+	position: fixed;
+	top: 0;
+	z-index: 99;
+	box-shadow: 0 0 20px black;
+	overflow: hidden;
+	-moz-transition: all .5s ease-in-out 0s;
+	-ms-transition: all .5s ease-in-out 0s;
+	-o-transition: all .5s ease-in-out 0s;
+	-webkit-transition: all .5s ease-in-out 0s;
+	transition: all .5s ease-in-out 0s;
+	-moz-transform:scale(0,0) rotateY(-180deg);
+	-ms-transform:scale(0,0) rotateY(-180deg);
+	-o-transform:scale(0,0) rotateY(-180deg);
+	-webkit-transform:scale(0,0) rotateY(-180deg);
+	transform:scale(0,0) rotateY(-180deg);
+	-moz-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
+	-o-backface-visibility: hidden;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-moz-transform-origin: 0;
+	-ms-transform-origin: 0;
+	-o-transform-origin: 0;
+	-webkit-transform-origin: 0;
+	opacity: 0;
+	
+}
+.nav:hover {
+	opacity: 0.8;
+}
+.nav.cur {
+	-moz-transform: scale(1, 1) rotateY(0deg);
+	-ms-transform: scale(1, 1) rotateY(0deg);
+	-o-transform: scale(1, 1) rotateY(0deg);
+	-webkit-transform: scale(1, 1) rotateY(0deg);
+	transform: scale(1, 1) rotateY(0deg);
+	opacity: 0.6;
+	
+}
+.nav-in {
+	width: 80%;
+	max-width: 1210px;
+	margin: 0 auto;
+}
+.nav-in h1 {
+	width: 10%;
+	min-width: 80px;
+	height: 80px;
+	overflow: hidden;
+	float: left;
+}
+.nav-in h1 a {
+	display: block;
+	width: 80px;
+	height: 73px;
+	position: relative;
+	background: url(../image/logo.png) no-repeat center;
+	background-size: cover;
+	-moz-transform: scale(0.7, 0.7);
+	-ms-transform: scale(0.7, 0.7);
+	-o-transform: scale(0.7, 0.7);
+	-webkit-transform: scale(0.7, 0.7);
+	transform: scale(0.7, 0.7);
+	-moz-transition: all 1s 0.1s;
+	-ms-transition: all 1s 0.1s;
+	-o-transition: all 1s 0.1s;
+	-webkit-transition: all 1s 0.1s;
+	transition: all 1s 0.1s;
+}
+.nav-in h1 a:hover {
+	-moz-transform: scale(1, 1);
+	-ms-transform: scale(1, 1);
+	-o-transform: scale(1, 1);
+	-webkit-transform: scale(1, 1);
+	transform: scale(1, 1);
+}
+.nav-in ul {
+	width: 600px;
+	float: right;
+	overflow: hidden;
+}
+.nav-in ul li {
+	width: 20%;
+	height: 80px;
+	float: left;
+	position: relative;
+	line-height: 80px;
+}
+.nav-in ul li a {
+	display: block;
+	width: 100%;
+	height: 80px;
+	text-align: center;
+	position: absolute;
+	z-index: 9;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	-moz-transition: color 1s, text-shadow 2s;
+	-ms-transition: color 1s, text-shadow 2s;
+	-o-transition: color 1s, text-shadow 2s;
+	-webkit-transition: color 1s, text-shadow 2s;
+	transition: color 1s, text-shadow 2s;
+}
+.nav-in ul li a:hover {
+	color: #F69;
+	text-shadow: 0 0 3px #6FF;
+}
+.nav-in .oc:hover {
+	color: #6FF;
+	text-shadow: 0 0 3px #F69;
+}
+.nav-in ul span {
+	width: 100%;
+	height: 80px;
+	display: block;
+	background: transparent;
+	position: absolute;
+	top: 0px;
+	z-index: 8;
+	-webkit-transition: all .2s ease-in-out;
+	   -moz-transition: all .2s ease-in-out;
+	    -ms-transition: all .2s ease-in-out;
+	     -o-transition: all .2s ease-in-out;
+	        transition: all .2s ease-in-out;
+}
+.nav-in ul span.cur{
+	background: #39C;
+}
+
+.nav-in .ocs {
+	background: #F69;
+}
+.logoS {
+	float: left;
+	height: 50px;
+	padding-top: 30px;
+	width: 120px;
+	position: relative;
+}
+.logoS img {
+	position: absolute;
+	display: none;
+}

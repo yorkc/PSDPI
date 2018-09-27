@@ -1,0 +1,39 @@
+    .setting{
+    width:500px;
+    left:-500px;
+    overflow:hidden;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+}
+.settingBoxSmall{
+    width:500px;
+    border-bottom:2px dashed rgba(0, 0, 0, 0.3);
+}
+
+/* .designTit{
+    top:1182px;
+    right:20px;
+    font-size:14px;
+} */
+.settingBoxBig.preview{
+    height:200px;
+    border:2px solid rgba(0, 0, 0, 0.3);
+    border-style: none none dashed none;
+}
+
+.shareContent{
+    /*margin:30px 0 0 124px;*/
+}
+.con .page.settingState{
+    transform-origin: 28% 10%;
+}
+.cdBot{
+    left:-95px;
+    /*box-shadow:  0 0 10px #000;*/
+    -webkit-transform: scale(.5,.5) ;
+       -moz-transform: scale(.5,.5) ;
+        -ms-transform: scale(.5,.5) ;
+         -o-transform: scale(.5,.5) ;
+            transform: scale(.5,.5) ;
+
+}

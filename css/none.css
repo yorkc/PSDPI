@@ -1,0 +1,7 @@
+body{
+    background:#FFF url(../image/none.png)no-repeat center !important;
+    background-size: contain !important;
+}
+.con,.nav,.cdBot,.prompt,.point,#a,.cdBar,.loading{
+    display:none !important;
+}
